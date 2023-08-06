@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../externals/FiraCode-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #282A36;
+  font-family: 'Fira Code', monospace;
+  height: 10000px; /*para teste*/
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Retina/complete/Fura%20Code%20Retina%20Nerd%20Font%20Complete.ttf') format('truetype');
+  font-variant-ligatures: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 39px;
+  height: 84px;
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar {
+  width: 48px;
+  height: 359px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: var(--cor-1, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, #0601E7 0%, #D446F9 64.06%, #3080FE 100%));
+  position: fixed;
+  margin-left: 42px;
+  margin-top: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
