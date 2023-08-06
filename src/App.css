@@ -39,15 +39,3 @@ body {
   margin-top: 80px;
 }
 
-
-.bolo {
-  width: 48px;
-  height: 359px;
-  flex-shrink: 0;
-  border-radius: 100px;
-  background: var(--cor-1, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, #0601E7 0%, #D446F9 64.06%, #3080FE 100%));
-  position: fixed;
-  margin-left: 42px;
-  margin-top: 80px;
-}
-
