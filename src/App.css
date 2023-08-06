@@ -37,5 +37,11 @@ body {
   position: fixed;
   margin-left: 42px;
   margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#home-button{
+  margin-top: 75px;
 }
 
